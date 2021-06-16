@@ -1,4 +1,4 @@
-# 🎂 gingy 🎂 ![License](https://img.shields.io/github/license/ton1czech/psik.svg) ![Python](https://badgen.net/badge/Python/3.9.5/blue?) ![Size](https://img.shields.io/github/languages/code-size/ton1czech/psik.svg) ![GitHub version](https://badge.fury.io/gh/ton1czech%2Fpsik.svg)
+# 🎂 psik 🎂 ![License](https://img.shields.io/github/license/ton1czech/psik.svg) ![Python](https://badgen.net/badge/Python/3.9.5/blue?) ![Size](https://img.shields.io/github/languages/code-size/ton1czech/psik.svg) ![GitHub version](https://badge.fury.io/gh/ton1czech%2Fpsik.svg)
 
 ## 💭 **Description**
 
