@@ -14,12 +14,12 @@ Features:
 
 ## ✏ **How To Use**
 
-```
+```python
 # Step 1:
-$ cd psik/
+cd psik/
 
 # Step 2:
-$ python3 src/psik.py
+python3 src/psik.py
 
 ```
 
