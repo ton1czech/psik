@@ -1,7 +1,8 @@
 import os
 
-name = os.getlogin()
-os.chdir(f"/home/{name}/Downloads")
-dir = os.getcwd()
+def organize():
+    name = os.getlogin()
+    os.chdir(f"/home/{name}/Downloads")
 
-print(dir)
+if __name__ == "__main__":
+    organize()
