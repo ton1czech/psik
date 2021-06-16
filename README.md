@@ -2,13 +2,24 @@
 
 ## 💭 **Description**
 
-Downloads directory organizer
+Downloads directory organizer.
+
+</br>
+
+Features:
+
+- moves files from your Downloads directory to other general folders depending on the file type.
 
 ---
 
 ## ✏ **How To Use**
 
 ```
+# Step 1:
+$ cd psik/
+
+# Step 2:
+$ python3 src/psik.py
 
 ```
 
@@ -40,7 +51,7 @@ SOFTWARE.
 
 ---
 
-## **Author Info**
+## 👨‍💻 **Author Info**
 
 - Twitter - [@ton1czech](https://twitter.com/ton1czech)
 - Instagram - [@ton1czech](https://instagram.com/ton1czech)
