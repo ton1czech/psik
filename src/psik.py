@@ -48,7 +48,11 @@ def organize():
             
             ## Videos ##
             elif file.endswith(".mp4") or file.endswith(".mov") or file.endswith(".mkv") or file.endswith(".webm") or file.endswith(".flv") or file.endswith("avi") or file.endswith(".m4v") or file.endswith(".mpg") or file.endswith(".mpeg"):
-                print("Video file moved")
+                temp_dir = f"{dir}/Videos"
+                if not os.path.exists(temp_dir):
+                    os.makedirs(temp_dir)
+                shutil.move(file, f"{temp_dir}/{file}")
+                count += 1
             
             ## Musik ##
             elif file.endswith(".mp3"):
