@@ -54,9 +54,13 @@ def organize():
                 shutil.move(file, f"{temp_dir}/{file}")
                 count += 1
             
-            ## Musik ##
-            elif file.endswith(".mp3"):
-                print("Musik file moved")
+            ## Music ##
+            elif file.endswith(".mp3") or file.endswith(".aac") or file.endswith("flac") or file.endswith("m4a") or file.endswith(".opus") or file.endswith("wav") or file.endswith(".webm"):
+                temp_dir = f"{dir}/Music"
+                if not os.path.exists(temp_dir):
+                    os.makedirs(temp_dir)
+                shutil.move(file, f"{temp_dir}/{file}")
+                count += 1
 
             ## Other ##
             else:
