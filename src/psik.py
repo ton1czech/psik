@@ -1,15 +1,17 @@
 import os
 import shutil
+from curtsies.fmtfuncs import magenta, cyan, green, bold
 
 def organize():
     count = 0
-    accept = input("Are you sure you want to organize your Downloads directory? [y/N]: ")
+    accept = input(magenta("Are you sure you want to organize your Downloads directory? [y/N]: "))
     if accept == "y" or accept == "Y" or accept == "yes":
-        print("Scanning the Downloads directory...")
+        print(cyan("Scanning the Downloads directory..."))
         dir = f"/home/{os.getlogin()}"
         os.chdir(f"{dir}/Downloads")
         files = os.listdir()
-        print(f"Found {len(files)} files.")
+        print(bold(cyan(f"Found {len(files)} files.")))
+        print(magenta("Moving..."))
 
         for file in files:
             ## Documents ##
@@ -109,9 +111,9 @@ def organize():
                     os.makedirs(temp_dir)
                 shutil.move(file, f"{temp_dir}/{file}")
                 count += 1
-        print(f"Downloads directory organized by psik.\nFiles moved: {count}")
+        print(bold(green(f"\nFiles moved: {count}\n\nDownloads directory organized by psik.")))
     else:
-        print("All right\nshutting down...")
+        print(cyan("All right\nshutting down..."))
         accept = False
             
 if __name__ == "__main__":
