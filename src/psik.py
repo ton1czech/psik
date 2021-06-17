@@ -37,6 +37,38 @@ def organize():
                 shutil.move(file, f"{temp_dir}/{file}")
                 count += 1
 
+            # rust #
+            elif file.endswith(".rs"):
+                temp_dir = f"{dir}/Documents/programming/rust"
+                if not os.path.exists(temp_dir):
+                    os.makedirs(temp_dir)
+                shutil.move(file, f"{temp_dir}/{file}")
+                count += 1
+
+            # c #
+            elif file.endswith(".c"):
+                temp_dir = f"{dir}/Documents/programming/c"
+                if not os.path.exists(temp_dir):
+                    os.makedirs(temp_dir)
+                shutil.move(file, f"{temp_dir}/{file}")
+                count += 1
+
+            # c# #
+            elif file.endswith(".cs"):
+                temp_dir = f"{dir}/Documents/programming/c#"
+                if not os.path.exists(temp_dir):
+                    os.makedirs(temp_dir)
+                shutil.move(file, f"{temp_dir}/{file}")
+                count += 1
+
+            # c++ #
+            elif file.endswith(".cpp"):
+                temp_dir = f"{dir}/Documents/programming/c++"
+                if not os.path.exists(temp_dir):
+                    os.makedirs(temp_dir)
+                shutil.move(file, f"{temp_dir}/{file}")
+                count += 1
+
             ## Pictures ##
             # raster #
             elif file.endswith(".jpg") or file.endswith(".jpeg") or file.endswith(".png") or file.endswith(".tiff") or file.endswith(".gif") or file.endswith(".heif") or file.endswith(".raw"):
