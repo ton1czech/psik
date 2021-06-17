@@ -15,6 +15,7 @@ Features:
 ## ✏ **How To Use**
 
 ```bash
+=======
 # Step 1:
 cd psik/
 
