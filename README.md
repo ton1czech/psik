@@ -1,6 +1,6 @@
 # 🎂 psik 🎂 ![License](https://img.shields.io/github/license/ton1czech/psik.svg) ![Python](https://badgen.net/badge/Python/3.9.5/blue?) ![Size](https://img.shields.io/github/languages/code-size/ton1czech/psik.svg) ![GitHub version](https://badge.fury.io/gh/ton1czech%2Fpsik.svg)
 
-<img src="https://imgur.com/OfMRpTL.gif">
+<img src="./public/psik.gif">
 
 ## ❗ **Warning**
 
