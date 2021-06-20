@@ -1,11 +1,11 @@
 # 🎂 psik 🎂 ![License](https://img.shields.io/github/license/ton1czech/psik.svg) ![Python](https://badgen.net/badge/Python/3.9.5/blue?) ![Size](https://img.shields.io/github/languages/code-size/ton1czech/psik.svg) ![GitHub version](https://badge.fury.io/gh/ton1czech%2Fpsik.svg)
 
+<img src="https://imgur.com/xqB4cwx.gif">
+
 ## ❗ **Warning**
 
-<div style="color: red; font-size: 25px; font-weight: 800; text-transform: uppercase;">
 If your files get lost or corrupted, it's not my fault. </br>
 Use at your own risk!
-</div>
 
 ---
 
@@ -15,9 +15,8 @@ Downloads directory organizer.
 
 </br>
 
-Features:
-
-- moves files from your Downloads directory to other general folders depending on the file type.
+Moves files from your Downloads directory to other general folders depending on the file type. </br>
+Support for more than 40 file types.
 
 ---
 
