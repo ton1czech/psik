@@ -105,15 +105,6 @@ def organize():
                     os.makedirs(temp_dir)
                 shutil.move(file, f"{temp_dir}/{file}")
                 count += 1
-
-            # Other #
-            else:
-                pass
-                temp_dir = f"{dir}/Documents/other"
-                if not os.path.exists(temp_dir):
-                    os.makedirs(temp_dir)
-                shutil.move(file, f"{temp_dir}/{file}")
-                count += 1
         print(bold(green(f"\nMoved {count} files in {time.time() - start}s\n\nDownloads directory organized by psik.")))
     else:
         print(cyan("All right\nshutting down..."))
