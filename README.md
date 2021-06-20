@@ -1,5 +1,14 @@
 # 🎂 psik 🎂 ![License](https://img.shields.io/github/license/ton1czech/psik.svg) ![Python](https://badgen.net/badge/Python/3.9.5/blue?) ![Size](https://img.shields.io/github/languages/code-size/ton1czech/psik.svg) ![GitHub version](https://badge.fury.io/gh/ton1czech%2Fpsik.svg)
 
+## ❗ **Warning**
+
+<div style="color: red; font-size: 25px; font-weight: 800; text-transform: uppercase;">
+If your files get lost or corrupted, it's not my fault. </br>
+Use at your own risk!
+</div>
+
+---
+
 ## 💭 **Description**
 
 Downloads directory organizer.
