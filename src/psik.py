@@ -1,10 +1,10 @@
 import os
-import time
+from time import monotonic
 import shutil
 from curtsies.fmtfuncs import magenta, cyan, green, bold
 
 def organize():
-    start = time.time()
+    start = monotonic()
     count = 0
     accept = input(magenta("Are you sure you want to organize your Downloads directory? [y/N]: "))
     if accept == "y" or accept == "Y" or accept == "yes":
@@ -105,7 +105,7 @@ def organize():
                     os.makedirs(temp_dir)
                 shutil.move(file, f"{temp_dir}/{file}")
                 count += 1
-        print(bold(green(f"\nMoved {count} files in {time.time() - start} seconds.\n\nDownloads directory organized by psik.")))
+        print(bold(green(f"\nMoved {count} files in {format(monotonic() - start, '.3f')} seconds.\n\nDownloads directory organized by psik.")))
     else:
         print(cyan("All right\nshutting down..."))
         accept = False
